@@ -8,4 +8,9 @@ import java.util.List;
  */
 
 public interface TimeTable extends EventContainer, Comparable<Event>, Scorable {
+    /*
+    Generates a timetable if possible. If not, returns null.
+     */
+    TimeTable build();
+
 }
