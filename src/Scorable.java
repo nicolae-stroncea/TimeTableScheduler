@@ -1,3 +1,3 @@
 public interface Scorable {
-    double score();
+    double giveScore();
 }
