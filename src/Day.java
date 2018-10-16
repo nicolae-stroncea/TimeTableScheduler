@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Day implements EventContainer{
+public abstract class Day implements TimeTable{
     private int dayOfWeek;
     private List eventContainer = new ArrayList();
 

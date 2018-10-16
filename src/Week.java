@@ -1,2 +1,2 @@
-public class Week extends TimeTable {
+public abstract class Week implements TimeTable {
 }
