@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class Course implements OptionsForEvent, Iterable{
+public class Course implements UnknownP, Iterable{
 
     private String name;
     private ArrayList<ArrayList<Event>> lstOfSections = new ArrayList<>();
