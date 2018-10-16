@@ -6,7 +6,7 @@ import java.util.List;
  * Currently this is the superClass for Course. We want it to represent anything which behaves like course, in the
  * sense that it has mutually exclusive alternatives. We  try and generate timetables using the different alternatives.
  */
-public abstract class UnknownP implements  Iterable {
+public abstract class UnknownP implements  Iterable<ArrayList<Event>> {
     private ArrayList<ArrayList<Event>> listOfOptions = new ArrayList<>();
     public String name;
     public abstract boolean equals(Object obj);

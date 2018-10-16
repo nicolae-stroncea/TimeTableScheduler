@@ -12,5 +12,6 @@ public interface TimeTable extends EventContainer, Comparable<Event>, Scorable {
     Generates a timetable if possible. If not, returns null.
      */
     TimeTable build();
+    void  add(ArrayList<Event> listOfEvents);
 
 }
